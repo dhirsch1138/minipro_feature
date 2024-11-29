@@ -1,5 +1,4 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/base:bookworm",
     "name": "minipro chip programmer",
     "id": "minipro",
     "version": "1.0.0",
