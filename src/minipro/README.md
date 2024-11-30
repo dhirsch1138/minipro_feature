@@ -1,7 +1,7 @@
 
 # minipro chip programmer (minipro)
 
-A free and open command-line program for controlling chip programmers by Autoelectric / Xgecu.
+A free and open command-line program for controlling chip programmers by Autoelectric / Xgecu. https://gitlab.com/DavidGriffith/minipro
 
 ## Example Usage
 
