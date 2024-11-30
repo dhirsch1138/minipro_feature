@@ -1,4 +1,5 @@
 sudo apt update
+sudo apt upgrade -y
 sudo apt install libusb-1.0-0-dev fakeroot debhelper dpkg-dev libb64-dev udev git pkg-config usbutils -y
 mkdir .tempbuild
 cd .tempbuild
