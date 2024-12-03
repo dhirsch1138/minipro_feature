@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
     "customizations": {
         "vscode": {
             "settings": {
@@ -18,9 +18,7 @@
             ]
         }
     },
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-    }
+    "features": {}
     //"remoteUser": "",
     //"updateContentCommand": ""
 }
