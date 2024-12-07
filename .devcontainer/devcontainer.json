@@ -18,7 +18,9 @@
             ]
         }
     },
-    "features": {},
+    "features": {"ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
+        "packages": "libusb-dev, libusb-1.0-0-dev, fakeroot, debhelper, dpkg-dev, libb64-dev, udev, git, pkg-config, usbutils"
+    }},
     //my machine does fakeroot suuuuper slow for some reason. Adding this because internet says it helps.
     "runArgs": ["--ulimit=nofile=1024:1048576"]
     //"remoteUser": "",
