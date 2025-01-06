@@ -9,9 +9,5 @@
         "ghcr.io/devcontainers-extra/features/apt-get-packages:1"
     ],
     //let minipro reach out to usb stuff
-    "mounts": [{ "source": "/dev/bus/usb", "target": "/dev/bus/usb", "type": "bind" },
-    { "source": "/dev", "target": "/dev", "type": "bind" },
-    { "source": "/run/udev", "target": "/run/udev", "type": "bind" },
-    { "source": "/etc/udev/rules.d", "target": "/etc/udev/rules.d", "type": "bind" }
-]
+    "privileged": true
 }
