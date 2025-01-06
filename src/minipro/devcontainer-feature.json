@@ -1,11 +1,17 @@
 {
     "name": "minipro chip programmer",
     "id": "minipro",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "A free and open command-line program for controlling chip programmers by Autoelectric / Xgecu. https://gitlab.com/DavidGriffith/minipro. Minipro Version: 0.7.1 (from last import)",
     "options": {},
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
         "ghcr.io/devcontainers-extra/features/apt-get-packages:1"
-    ]
+    ],
+    //let minipro reach out to usb stuff
+    "mounts": [{ "source": "/dev/bus/usb", "target": "/dev/bus/usb", "type": "bind" },
+    { "source": "/dev", "target": "/dev", "type": "bind" },
+    { "source": "/run/udev", "target": "/run/udev", "type": "bind" },
+    { "source": "/etc/udev/rules.d", "target": "/etc/udev/rules.d", "type": "bind" }
+]
 }
