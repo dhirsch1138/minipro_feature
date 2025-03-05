@@ -1,7 +1,7 @@
 {
     "name": "minipro chip programmer",
     "id": "minipro",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "A free and open command-line program for controlling chip programmers by Autoelectric / Xgecu. https://gitlab.com/DavidGriffith/minipro. Minipro Version: 0.7.1 (from last import)",
     "options": {},
     "installsAfter": [
